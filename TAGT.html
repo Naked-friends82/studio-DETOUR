@@ -1,56 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>
-    Talk about Good things /Studio - DETOUR
-  </title>
-</head>
+    <meta charset="utf-8">
+    <title>
+        TAGT/ Studio-DETOUR(DEMO)2
+    </title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+        .section{
+            display: flex;
+            flex-direction: row;
+        }
+        nav,aside{
+            flex-basis: 20%;
+/*            flex-shrink: 1;*/
+        }
+        main{
+            flex-basis: 60%;
+/*            flex-shrink: 2;*/
+        }
+        .boxinmain{
+            display: flex;
+            flex-direction: row;
+        }
+        #Box1{
+            flex-basis: 25%;
+            margin-left: 40px;
+        }
+        #Box2{
+            flex-basis: 35%;
+            margin-left: 50px;
+        }
+        #Box3{
+            flex-basis: 40%;
+            margin-left: 40px;
+        }
+        
+        
+        html{
+            background-color: #DBDCDB;
+            font-family: "Myriad Pro"
+        }
+        #title{
+            position: fixed;
+            left: 50%;
+            transform: translate(-50%,0);
+            top:20px;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        header{
+            height: 80px;
+            margin-left: 30px;
+            margin-top: 15px;
+        }
+        a{
+            text-decoration: none;
+            padding-left: 10px;
+            padding-top: 0px;
+            color: black;
+            font-family: "times new roman";
+            font-size: 12px;
+        }
+        a:hover{
+            color:white;
+        }
+        img{
+            padding-top: 80px;
+        }
+        #imgTitle{
+            font-family: "times new roman";
+            font-size: 14px;
+            padding-top: 25px;
+            padding-bottom: 15px;
+        }
+        p1{
+            font-size: 12px;
+            color: darkgray;
+/*            padding-top: 25px;*/
+/*            왜 안되는거지?*/
+        }
+        #textTitle{
+  
+/*
+            font-family: "Melon hunter";
+            font-weight: bolder;
+*/
+            
+            font-family: "Sansumi";
+            font-weight: 640;
+            font-size: 18px;
+            padding-top: 30px;
+            padding-bottom: 15px;
+        }
+        p{
+/*            font-family: "noto selif";*/
+            font-family: "Noto Serif CJK KR";
+            font-weight: 400;
+            font-size: 12px;
+            width: 300px;
+        }
+        
+        footer{
+            font-family: "Proxima Nova";
+            font-weight: lighter;
+            font-size: 12px;
+            color: #F24E1B;
+            text-align: center;
+            padding-top: 80px;
+        }
+        
+        
+    </style>    
 <body>
-  <h1>
-    Studio - D E T O U R
-  </h1>
-  <h2>
-    <ul>
-      <li><a href="Studio_DETOUR_Only_HTML.html">Home</a></li>
-      <li><a href="Artworks.html">Artworks</a></li>
-      <li><a href="TAGT.html">Talk about Good Things</a></li>
-      <li><a href="CV.html">CV</a></li>
-    </ul>
-  </h2>
-  <article class="">
-    <img src="Bannana between Two Eggs.jpg" alt="Bannana between Two Eggs" width="600">
-    <p>
-      Bannana Between Two Eggs
-    </p>
-    <p>
-      digital prints on paper <br>
-      non-fixed <br>
-      2020
-    </p>
-    <h3>Talk about Good Things</h3>
-    <p>
-       우리는 기적 같은 과정을 통해 태어나 남부끄럽지 않게 살고자 애를 쓴다. <br>
-       그러나 산다는 것은 녹록치 않고, 한정된 재화는 사람들을 더욱 신경질적으로 만든다. <br>
-       스트레스가 쌓인 우리는 좋은 것에 대해선 질투심을 느끼고 꼬투리를 잡기 바쁘며, <br>
-       좋지 않은 것에 대해선 누구보다 날카로운 말로 비판과 비난을 한다.
-    </p>
-    <p>
-      부끄럽지만 나 또한 이와 같은 삶을 살아왔다. 그러나 어느 날 <br>
-      남의 매정한 말에 상처받으면서 남에게 매정하게 행동하는 나의 모습을 보았다. <br>
-      그리고 ‘좋은 것에 대해서만 이야기해도 충분히 매정한 세상에서 왜 나쁜 것에<br>
-       대해 이야기하며 살아가나’라고 생각했다.
-    </p>
-    <p>
-     이런 이유에서 나는 장르와 상관없이 내가 좋다고 생각하는 것에 대해서 자세하게 글로 적어보려 한다.<br>
-      어느 부분에 대해선 전문가와 같이 자세하게 말할 수 있고 어느 부분에서는 한없이<br>
-      얕은 생각을 적어내려 갈지 모른다. 글의 깊이와 무관하게 좋은 것에 대해 자세하게 이야기하는<br>
-      이 공간이 긍정적인 공감을 만들고, 분절된 세계에서 공유되는 가치를 만들어,<br>
-      삭막한 세계 속 자그마한 정원의 역할이 되리라 믿는다.
-    </p>
-  </article>
-  <footer>
-    Tel: +82)1050495056 / E-mail : xkwhdnfdmathfl@hanmai.net
-  </footer>
-</body>
+    <div class="container">
+        <header>
+            <a href="index.html">Home</a>
+            <a href="Artworks.html">Artworks</a>
+            <a href="TAGT.html">Talk about Good things</a>
+            <a href="CV.html">CV</a>
+            <div id="title">
+                Studio- D E T O U R
+            </div>
+        </header>
+        <section class="section">
+            <nav>
+                
+            </nav>
+            <main>
+                <div class="boxinmain">
+                    <div id="Box1">
+                        
+                    </div>
+                    <div id="Box2">
+                        <img src="Bannana between Two Eggs.jpg" alt="Bannana Between Two Eggs" width="380px">
+                        <div id="imgTitle">
+                            Bannana Between Two Eggs
+                        </div>
+                        <p1>
+                            digital prints on paper <br>
+                            non-fixed <br>
+                            2020
+                        </p1>
+                    </div>
+                    <div id="Box3">
+                        <div id="textTitle">
+                           Talk About Good Things
+                        </div>
+                        <p>
+                             우리는 기적 같은 과정을 통해 태어나 남부끄럽지 않게 살고자 애를 쓴다. 그러나 산다는 것은 녹록치 않고, 한정된 재화는 사람들을 더욱 신경질적으로 만든다. 스트레스가 쌓인 우리는 좋은 것에 대해선 질투심을 느끼고 꼬투리를 잡기 바쁘며, 좋지 않은 것에 대해선 누구보다 날카로운 말로 비판과 비난을 한다.
+                        </p>
+                        <p>
+                            부끄럽지만 나 또한 이와 같은 삶을 살아왔다. 그러나 어느 날 남의 매정한 말에 상처받으면서 남에게 매정하게 행동하는 나의 모습을 보았다. 그리고 ‘좋은 것에 대해서만 이야기해도 충분히 매정한 세상에서 왜 나쁜 것에 대해 이야기하며 살아가나’라고 생각했다.
+                        </p>
+                        <p>
+                             이런 이유에서 나는 장르와 상관없이 내가 좋다고 생각하는 것에 대해서 자세하게 글로 적어보려 한다. 어느 부분에 대해선 전문가와 같이 자세하게 말할 수 있고 어느 부분에서는 한없이 얕은 생각을 적어내려 갈지 모른다. 글의 깊이와 무관하게 좋은 것에 대해 자세하게 이야기하는 이 공간이 긍정적인 공감을 만들고, 분절된 세계에서 공유되는 가치를 만들어, 삭막한 세계 속 자그마한 정원의 역할이 되리라 믿는다.
+                        </p>
+                    </div>
+                </div>
+                
+            </main>
+            <aside>
+                
+            </aside>
+        </section>
+        <footer>
+            Tel :  +82)1050495056  /  E-mail : xkwhdnfdmathfl@hanmail.net
+        </footer>
+    </div>
+</body>    
 </html>
